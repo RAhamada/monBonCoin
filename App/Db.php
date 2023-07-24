@@ -16,7 +16,7 @@ class Db{
                 // Chemin vers config.json depuis le dossier public
                 // $config = file_get_contents('../App/config.json')
                 // Chemin vers config.json depuis le dossier racine
-                $config = file_get_contents('../App/config.json');
+                $config = file_get_contents('App/config.json');
                 // var_dump($config);
                 // Pour pouvoir utiliser un fichier json, il faut le décoder
                 $config = json_decode($config);
